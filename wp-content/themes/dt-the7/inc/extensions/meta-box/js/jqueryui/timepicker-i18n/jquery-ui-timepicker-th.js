@@ -1,0 +1,1 @@
+(function($){$.timepicker.regional['th']={timeOnlyTitle:'เลือกเวลา',timeText:'เวลา ',hourText:'ชั่วโมง ',minuteText:'นาที',secondText:'วินาที',millisecText:'มิลลิวินาที',timezoneText:'เขตเวลา',currentText:'เวลาปัจจุบัน',closeText:'ปิด',timeFormat:'hh:mm tt'};$.timepicker.setDefaults($.timepicker.regional['th']);})(jQuery);

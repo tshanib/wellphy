@@ -1,0 +1,1 @@
+(function($){$.timepicker.regional['et']={timeOnlyTitle:'Vali aeg',timeText:'Aeg',hourText:'Tund',minuteText:'Minut',secondText:'Sekund',millisecText:'Millisekundis',timezoneText:'Ajavöönd',currentText:'Praegu',closeText:'Valmis',timeFormat:'HH:mm',amNames:['AM','A'],pmNames:['PM','P'],isRTL:false};$.timepicker.setDefaults($.timepicker.regional['et']);})(jQuery);

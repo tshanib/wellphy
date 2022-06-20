@@ -1,0 +1,1 @@
+(function($){$.timepicker.regional['no']={timeOnlyTitle:'Velg tid',timeText:'Tid',hourText:'Time',minuteText:'Minutt',secondText:'Sekund',millisecText:'Millisekund',timezoneText:'Tidssone',currentText:'Nå',closeText:'Lukk',timeFormat:'HH:mm',amNames:['am','AM','A'],pmNames:['pm','PM','P'],isRTL:false};$.timepicker.setDefaults($.timepicker.regional['no']);})(jQuery);

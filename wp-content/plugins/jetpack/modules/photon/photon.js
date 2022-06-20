@@ -1,0 +1,4 @@
+(function(){function recalculate(){if(this.complete){var lazySrc=this.getAttribute('data-lazy-src');if(lazySrc&&this.src!==lazySrc){this.addEventListener('onload',recalculate);return;}
+var width=this.width;var height=this.height;if(width&&width>0&&height&&height>0){this.setAttribute('width',width);this.setAttribute('height',height);reset_for_retina(this);}}else{this.addEventListener('onload',recalculate);return;}}
+var restore_dims=function(){var elements=document.querySelectorAll('img[data-recalc-dims]');for(var i=0;i<elements.length;i++){recalculate.call(elements[i]);}},reset_for_retina=function(img){img.removeAttribute('data-recalc-dims');img.removeAttribute('scale');};if(typeof window!=='undefined'&&typeof document!=='undefined'){if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',restore_dims);}else{restore_dims();}}
+document.body.addEventListener('is.post-load',restore_dims);})();

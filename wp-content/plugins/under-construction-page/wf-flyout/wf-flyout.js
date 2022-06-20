@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('#wff-button').on('click',function(e){e.preventDefault();$('#wf-flyout').toggleClass('opened');$('#wff-overlay').toggle();return false;});$('#wff-overlay').on('click',function(e){e.preventDefault();$(this).hide();$('#wf-flyout').removeClass('opened');return false;});});

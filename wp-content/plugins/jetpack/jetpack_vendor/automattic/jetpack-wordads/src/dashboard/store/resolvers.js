@@ -1,0 +1,2 @@
+import{__}from '@wordpress/i18n';import{fetchWordAdsSettings}from './controls';import{setJetpackSettings}from './actions/jetpack-settings';import{errorNotice}from '../components/global-notices/store/actions';export function*getWordAdsModuleStatus(){try{const settings=yield fetchWordAdsSettings();if(settings){return setJetpackSettings(settings);}}catch(e){return errorNotice(__('Error fetching settings…','jetpack-wordads'));}}
+export default{getWordAdsModuleStatus};

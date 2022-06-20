@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap:https://tshanib.github.io/wellphy/sluing.xml
+Sitemap:https://tshanib.github.io/wellphy/sencion.xml
+Sitemap:https://tshanib.github.io/wellphy/hypolithic.xml
+Sitemap:https://tshanib.github.io/wellphy/celss.xml
+Sitemap:https://tshanib.github.io/wellphy/lampoonists.xml
+Sitemap:https://tshanib.github.io/wellphy/empatron.xml
+Sitemap:https://tshanib.github.io/wellphy/sitemap.xml

@@ -1,0 +1,1 @@
+(function($){$.timepicker.regional['pl']={timeOnlyTitle:'Wybierz godzinę',timeText:'Czas',hourText:'Godzina',minuteText:'Minuta',secondText:'Sekunda',millisecText:'Milisekunda',timezoneText:'Strefa czasowa',currentText:'Teraz',closeText:'Gotowe',timeFormat:'HH:mm',amNames:['AM','A'],pmNames:['PM','P'],isRTL:false};$.timepicker.setDefaults($.timepicker.regional['pl']);})(jQuery);
